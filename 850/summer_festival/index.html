@@ -244,6 +244,105 @@
         celebration, hinting at a past best left forgotten.
       </p>
     </div>
+    <div id="story">
+      <p>
+        Yukari woke up on the day of the summer festival, her heart weighed down
+        by a sense of
+        <span class="reluctant">reluctant</span> <span class="duty">duty</span>.
+        She had eventually succumbed to Saki's persistent
+        <span class="solicit">soliciting</span>,
+        <span class="reluctant">reluctantly</span> agreeing to attend the event
+        despite the <span class="conflict">conflicting</span>
+        <span class="emotion">emotions</span> it stirred within her. The once
+        agreeable reunion had now <span class="evolve">evolved</span> into a
+        source of <span class="unspoken">unspoken</span>
+        <span class="tension">tension</span> among her friends, casting a
+        <span class="somber">somber</span> cloud over an otherwise joyful
+        <span class="outing">outing</span>.
+      </p>
+      <p>
+        The excitement was <span class="palpable">palpable</span> as the
+        festival <span class="preparation">preparations</span> commenced
+        throughout the town, its streets
+        <span class="bustling">bustling</span> with activity. Traditional stalls
+        were allocated their spaces, selling everything from delicious cuisine
+        to <span class="authentic">authentic</span>
+        <span class="handmade">handmade</span>
+        <span class="souvenir">souvenirs</span>, their colorful
+        <span class="assortment">assortment</span> capturing the spirit of the
+        festive season.
+      </p>
+      <p>
+        <span class="reluctant">Yukari</span>, however, could not match the
+        enthusiasm. Her <span class="attire">attire</span> for the day was
+        simple and unfurnished, <span class="devoid">devoid</span> of any
+        <span class="festive">festive</span> accents. In the face of such
+        <span class="vibrant">vibrant</span>
+        <span class="preparation">preparations</span>, she appeared like an
+        unassuming <span class="spectator">spectator</span>,
+        <span class="reluctant">reluctant</span> to
+        <span class="partake">partake</span> in the joyous
+        <span class="festivity">festivities</span> that surrounded her. She
+        donned a <span class="nondescript">nondescript</span> outfit, opting for
+        comfort over style, a choice that seemed to symbolize her mixed feelings
+        towards the event.
+      </p>
+      <p>
+        On arriving at the designated meeting spot,
+        <span class="reluctant">Yukari</span> found herself greeted by an array
+        of familiar faces. Friends from their
+        <span class="regular">regular</span> café meetups were present, each one
+        of them dressed in a brightly colored
+        <span class="yukata">yukata</span> that stood in
+        <span class="stark">stark</span> contrast to Yukari's
+        <span class="modest">modest</span> <span class="attire">attire</span>.
+        Along with the <span class="regular">regular</span> crowd, she was
+        surprised to find Saki's boyfriend also in attendance, their
+        relationship being a recent development she was yet to fully come to
+        terms with.
+      </p>
+      <p>
+        The festival was in full swing, with the merry hum of the crowd and the
+        aroma of diverse culinary delights wafting through the air, transforming
+        the otherwise <span class="mundane">mundane</span>
+        <span class="municipal">municipal</span> area into a
+        <span class="lively">lively</span> celebration. The
+        <span class="scenic">scenic</span> beauty of the setting was
+        picturesque, the <span class="wane">waning</span> light of the day
+        casting <span class="elongate">elongated</span> shadows and cloaking the
+        stalls in a <span class="dim">dim</span>, yet warm,
+        <span class="ambience">ambience</span>.
+      </p>
+      <p>
+        Despite the <span class="allure">allure</span>,
+        <span class="reluctant">Yukari</span> found herself unable to
+        <span class="immerse">immerse</span> herself in the
+        <span class="festivity">festivities</span>. Observing Saki with her
+        boyfriend, a twinge of
+        <span class="frustration">frustration</span> coursed through her. The
+        two seemed <span class="absorb">absorbed</span> in their own world,
+        leaving <span class="reluctant">Yukari</span> to
+        <span class="grapple">grapple</span> with her
+        <span class="discontent">discontent</span> alone. It seemed more
+        agreeable that they should have attended the festival as a couple rather
+        than dragging her into their joyous
+        <span class="rendezvous">rendezvous</span>.
+      </p>
+      <p>
+        Yukari <span class="muse">mused</span>, her thoughts bitter. If there
+        was anyone who couldn't <span class="comprehend">comprehend</span> the
+        other's world, it wasn't her patients at the psychiatric ward, it was
+        Saki. Her stubborn insistence on pushing Yukari into the festival only
+        <span class="exemplify">exemplified</span> her
+        <span class="ignorance">ignorance</span> towards Yukari's feelings,
+        further <span class="widen">widening</span> the
+        <span class="rift">rift</span> between them. Amid the
+        <span class="joviality">joviality</span> of the festival, the atmosphere
+        between Yukari and Saki was
+        <span class="overwhelming">overwhelmingly</span>
+        <span class="icy">icy</span>.
+      </p>
+    </div>
     <div id="modal"></div>
     <script>
       const url = "./words.json";
@@ -273,6 +372,9 @@
               event.stopPropagation();
               modal.classList.add("showing");
               const classname = spans[i].className;
+              if (!data[classname].word) {
+                return;
+              }
               const text =
                 data[classname].word +
                 " : " +

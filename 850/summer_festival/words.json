@@ -409,5 +409,248 @@
     "word": "Unfathomable",
     "pronounciation": "/ʌnˈfæðəməbəl/",
     "meaning": "測り知れない、深過ぎて理解できない。絶対的な深さや複雑さ。"
+  },
+  "reluctant": {
+    "word": "Reluctant",
+    "pronunciation": "/rɪˈlʌk.tənt/",
+    "meaning": "気乗りしない、渋々の。躊躇しているか、何かをする気が乗らない状態を表す形容詞。意欲が低く、渋々な態度や行動を示す。"
+  },
+  "duty": {
+    "word": "Duty",
+    "pronunciation": "/ˈduː.t̬i/",
+    "meaning": "義務、任務。人が遂行しなければならない法的または道徳的な責任や役割。特定の義務や責務に対する義務感や責任感を指す。"
+  },
+  "solicit": {
+    "word": "Solicit",
+    "pronunciation": "/səˈlɪ.sɪt/",
+    "meaning": "懇願する、勧誘する。人から支援や援助、賛同などを求めること。何かを懇願したり、助力を依頼したり、勧誘したりする行為。"
+  },
+  "conflict": {
+    "word": "Conflict",
+    "pronunciation": "/ˈkɑːn.flɪkt/",
+    "meaning": "矛盾、衝突。2つ以上の意見、価値観、利益などが互いに矛盾していたり、抵触したりする状態。または、意見や目標が相反するために起こる問題や争い。"
+  },
+  "emotion": {
+    "word": "Emotion",
+    "pronunciation": "/ɪˈmoʊ.ʃən/",
+    "meaning": "感情。人が特定の出来事や刺激に対して感じる内的な状態や心の反応。喜び、悲しみ、怒り、恐れなど、さまざまな感情が含まれる。"
+  },
+  "evolve": {
+    "word": "Evolve",
+    "pronunciation": "/ɪˈvɑːlv/",
+    "meaning": "発展する、進化する。徐々に変化し、発展していくプロセス。進化や成長を経て新しい形や状態に移行すること。"
+  },
+  "unspoken": {
+    "word": "Unspoken",
+    "pronunciation": "/ʌnˈspoʊ.kən/",
+    "meaning": "言葉に出さない、黙った。言葉で表現されず、口に出されないこと。黙示的な意味や暗黙の了解として存在すること。"
+  },
+
+  "somber": {
+    "word": "Somber",
+    "pronunciation": "/ˈsɑm.bər/",
+    "meaning": "陰鬱な、重苦しい。雰囲気や色調が暗く、悲しみや沈みゆく気分を引き起こすような感じ方。重々しい印象を与える。"
+  },
+  "outing": {
+    "word": "Outing",
+    "pronunciation": "/ˈaʊ.tɪŋ/",
+    "meaning": "お出かけ、遠出。家や通常の場所から外出し、楽しむための活動や旅行。日帰り旅行やレジャー活動などが含まれる。"
+  },
+  "palpable": {
+    "word": "Palpable",
+    "pronunciation": "/ˈpæl.pə.bəl/",
+    "meaning": "明白な、実感できる。はっきりと感じられるほど明確で実在感のある状態。触知可能で、明示的な形で存在や感情を示す。"
+  },
+  "preparation": {
+    "word": "Preparation",
+    "pronunciation": "/ˌprɛp.əˈreɪ.ʃən/",
+    "meaning": "準備。何かを達成するために事前に行う活動や手続き。将来のイベントや状況に対応するための準備をすること。"
+  },
+  "bustling": {
+    "word": "Bustling",
+    "pronunciation": "/ˈbʌs.əl.ɪŋ/",
+    "meaning": "活気に満ちた、にぎやかな。活動や人々の動きが盛んで、賑やかな様子を表す形容詞。活発でにぎやかな雰囲気があること。"
+  },
+  "authentic": {
+    "word": "Authentic",
+    "pronunciation": "/ɔːˈθɛn.tɪk/",
+    "meaning": "本物の、正真正銘の。真正性や信頼性があることを意味する形容詞。偽物ではなく、本物であることを強調する。"
+  },
+  "handmade": {
+    "word": "Handmade",
+    "pronunciation": "/ˌhændˈmeɪd/",
+    "meaning": "手作りの。手作業によって作られたことを示す形容詞。機械を使用せず、手で作られた製品や作品を指す。"
+  },
+  "souvenir": {
+    "word": "Souvenir",
+    "pronunciation": "/ˌsuː.vəˈnɪr/",
+    "meaning": "お土産、思い出。旅行や特別な出来事の記念として持ち帰る品物。旅行先やイベントの思い出を呼び起こす役割を持つ。"
+  },
+  "assortment": {
+    "word": "Assortment",
+    "pronunciation": "/əˈsɔːrt.mənt/",
+    "meaning": "品揃え、多様性。種類や種類の異なる物事の集まり。さまざまな選択肢やバリエーションを含むことを示す。"
+  },
+  "vibrant": {
+    "word": "Vibrant",
+    "pronunciation": "/ˈvaɪ.brənt/",
+    "meaning": "活気に満ちた、鮮やかな。元気でエネルギッシュな様子を表す形容詞。活力にあふれ、色彩や音響が明るく鮮やかな印象を与える。"
+  },
+
+  "devoid": {
+    "word": "Devoid",
+    "pronunciation": "/dɪˈvɔɪd/",
+    "meaning": "欠いている、～がない。特定の品質や属性が完全に欠如していることを示す形容詞。何かが完全にない状態を表す。"
+  },
+  "festive": {
+    "word": "Festive",
+    "pronunciation": "/ˈfɛs.tɪv/",
+    "meaning": "祭りの、お祭りの。祝賀や祭りの雰囲気や要素を持つことを示す形容詞。特別なイベントやお祭りの雰囲気や装飾を含む。"
+  },
+  "spectator": {
+    "word": "Spectator",
+    "pronunciation": "/ˈspɛk.teɪ.tər/",
+    "meaning": "観客、観衆。スポーツやエンターテイメントなどのイベントで、参加者ではなく観察者や見物人として参加する人。"
+  },
+  "partake": {
+    "word": "Partake",
+    "pronunciation": "/pɑːrˈteɪk/",
+    "meaning": "参加する、分かち合う。何かに関与したり、一緒に楽しんだりすることを意味する動詞。参加する、共有する、分け合うなどの意味を持つ。"
+  },
+  "furnish": {
+    "word": "Furnish",
+    "pronunciation": "/ˈfɝː.nɪʃ/",
+    "meaning": "装飾する、提供する。家具や装飾品などで部屋や空間を備え付けること。または必要な物や情報を提供すること。"
+  },
+  "modest": {
+    "word": "Modest",
+    "pronunciation": "/ˈmɑː.dɪst/",
+    "meaning": "控えめな、謙虚な。質素で控えめな態度や行動を示す形容詞。過度な自己主張や見せびらかしを避け、謙虚さを持つ。"
+  },
+  "regular": {
+    "word": "Regular",
+    "pronunciation": "/ˈrɛɡ.jə.lɚ/",
+    "meaning": "定期的な、通常の。一定の間隔やパターンで繰り返されることを示す形容詞。通常の、定期的な、規則的なという意味を持つ。"
+  },
+  "mundane": {
+    "word": "Mundane",
+    "pronunciation": "/mʌnˈdeɪn/",
+    "meaning": "平凡な、ありふれた。普通であり、特別な魅力や刺激がないことを示す形容詞。日常的であり、一般的に存在する。"
+  },
+  "municipal": {
+    "word": "Municipal",
+    "pronunciation": "/mjuːˈnɪs.ə.pəl/",
+    "meaning": "市の、自治体の。市や自治体と関連した事物や活動を指す形容詞。地方行政や市民に関連する。"
+  },
+  "lively": {
+    "word": "Lively",
+    "pronunciation": "/ˈlaɪv.li/",
+    "meaning": "活気のある、生き生きとした。活発でエネルギッシュな様子を表す形容詞。活力に満ち、活気があり、生き生きとしている様子。"
+  },
+  "scenic": {
+    "word": "Scenic",
+    "pronunciation": "/ˈsiː.nɪk/",
+    "meaning": "風景の美しい、景色のある。美しい風景や自然の景色を持つことを示す形容詞。目に鮮やかで魅力的な景色や風景を含む。"
+  },
+  "wane": {
+    "word": "Wane",
+    "pronunciation": "/weɪn/",
+    "meaning": "弱まる、衰える。徐々に弱まったり、減少したりすることを意味する動詞。勢いや明るさが衰える様子を表す。"
+  },
+  "elongate": {
+    "word": "Elongate",
+    "pronunciation": "/ˈiː.lɔːŋ.ɡeɪt/",
+    "meaning": "伸びる、長くする。長く伸びたり、延長されたりすることを示す動詞。長さや時間の延長を意味する。"
+  },
+  "dim": {
+    "word": "Dim",
+    "pronunciation": "/dɪm/",
+    "meaning": "薄暗い、ぼんやりとした。光や明るさが弱く、ぼんやりとした状態を表す形容詞。暗くてはっきりしない。"
+  },
+
+  "allure": {
+    "word": "Allure",
+    "pronunciation": "/əˈlʊr/",
+    "meaning": "魅力、誘惑。魅力や魅力的な要素を持つことを示す名詞。人々を引きつけ、惹きつける力や魅力を指す。"
+  },
+  "immerse": {
+    "word": "Immerse",
+    "pronunciation": "/ɪˈmɜːrs/",
+    "meaning": "浸る、没頭する。浸す、没頭する、埋没するなどの意味を持つ動詞。全身または完全に何かに浸かったり、集中したりすること。"
+  },
+  "festivity": {
+    "word": "Festivity",
+    "pronunciation": "/ˌfɛsˈtɪv.ə.t̬i/",
+    "meaning": "祭り、お祭り。祝祭や特別なイベントの雰囲気や活動を指す名詞。祭りやお祭りの楽しさや喜びを含む。"
+  },
+  "frustration": {
+    "word": "Frustration",
+    "pronunciation": "/frʌˈstreɪ.ʃən/",
+    "meaning": "欲求不満、いら立ち。目標や望みが達成できないことによって生じる不満やいら立ちの感情を表す名詞。"
+  },
+  "absorb": {
+    "word": "Absorb",
+    "pronunciation": "/əbˈzɔːrb/",
+    "meaning": "吸収する、熱中する。物質や情報を吸収したり、完全に理解したりすること。または熱中して取り組むこと。"
+  },
+  "grapple": {
+    "word": "Grapple",
+    "pronunciation": "/ˈɡræp.əl/",
+    "meaning": "取り組む、格闘する。問題や困難と真剣に取り組むことを意味する動詞。困難や障害に対して努力や戦いを行う。"
+  },
+  "discontent": {
+    "word": "Discontent",
+    "pronunciation": "/ˌdɪs.kənˈtɛnt/",
+    "meaning": "不満、不平。満足していない状態や感情を示す名詞。不満や不平を感じること。"
+  },
+  "rendezvous": {
+    "word": "Rendezvous",
+    "pronunciation": "/ˈrɑːn.də.vuː/",
+    "meaning": "会合、待ち合わせ。人々が特定の場所や時間に集まることを意味する名詞。会合や待ち合わせの約束や場所を指す。"
+  },
+  "muse": {
+    "word": "Muse",
+    "pronunciation": "/mjuːz/",
+    "meaning": "思案する、熟考する。深く考えたり、物思いにふけったりすることを示す動詞。熟考や思索に耽ること。"
+  },
+  "comprehend": {
+    "word": "Comprehend",
+    "pronunciation": "/ˌkɑːm.prɪˈhend/",
+    "meaning": "理解する、把握する。情報や意味を理解したり、完全に把握したりすることを意味する動詞。理解や把握の範囲が含まれる。"
+  },
+  "exemplify": {
+    "word": "Exemplify",
+    "pronunciation": "/ɪɡˈzɛm.plə.faɪ/",
+    "meaning": "具体的に示す、例証する。具体的な例や事例を挙げて示すことを意味する動詞。具体例によって説明や証明を行う。"
+  },
+  "ignorance": {
+    "word": "Ignorance",
+    "pronunciation": "/ˈɪɡ.nər.əns/",
+    "meaning": "無知、無学。知識や情報が欠けている状態、またはそれを示す態度を表す名詞。知らない、理解していないという状態。"
+  },
+  "widen": {
+    "word": "Widen",
+    "pronunciation": "/ˈwaɪd.ən/",
+    "meaning": "広げる、拡大する。幅や範囲を広げたり、拡大したりすることを示す動詞。何かの距離や差を広げる。"
+  },
+  "rift": {
+    "word": "Rift",
+    "pronunciation": "/rɪft/",
+    "meaning": "亀裂、隔たり。物理的または感情的な分断や隔たりを表す名詞。関係や集団の中での亀裂や分裂を指す。"
+  },
+  "joviality": {
+    "word": "Joviality",
+    "pronunciation": "/dʒoʊˈviː.æl.ə.t̬i/",
+    "meaning": "愉快さ、陽気さ。楽しさや愉快な様子を表す名詞。陽気で快活な雰囲気や行動を指す。"
+  },
+  "overwhelming": {
+    "word": "Overwhelming",
+    "pronunciation": "/ˌoʊ.vɚˈwɛl.mɪŋ/",
+    "meaning": "圧倒的な、圧倒する。圧倒的な程度や影響力を持つことを示す形容詞。非常に強力で、抵抗し難いほどの影響や感情を含む。"
+  },
+  "icy": {
+    "word": "Icy",
+    "pronunciation": "/ˈaɪ.si/",
+    "meaning": "氷のような、冷たい。氷のように冷たい、冷淡な様子を表す形容詞。感情や態度が冷たく、温かみや感情のない状態を指す。"
   }
 }
