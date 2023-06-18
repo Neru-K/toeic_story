@@ -251,7 +251,7 @@
       const modal = document.getElementById("modal");
       const spans = document.querySelectorAll("span");
 
-      const json = `
+      /* const json = `
       {
   "fresh_off": {
     "word": "Fresh off",
@@ -670,9 +670,9 @@
 }
 }
 `;
-      const data = JSON.parse(json);
+      const data = JSON.parse(json); */
 
-      /* fetch(url)
+      fetch(url)
         .then(function (response) {
           if (!response.ok) {
             throw new Error("Network response was not ok");
@@ -681,41 +681,34 @@
         })
         .then(function (jsonData) {
           var data = jsonData;
-          console.log(data); */
-      document.body.addEventListener("click", function () {
-        if (isModalShowing) {
-          modal.classList.remove("showing");
-          isModalShowing = false;
-        }
-      });
+          console.log(data);
+          document.body.addEventListener("click", function () {
+            if (isModalShowing) {
+              modal.classList.remove("showing");
+              isModalShowing = false;
+            }
+          });
 
-      for (let i = 0; i < spans.length; i++) {
-        spans[i].addEventListener("click", function (element) {
-          event.stopPropagation();
-          modal.classList.add("showing");
-          const classname = spans[i].className;
-          /* modal.innerHTML =
-            data[classname].word +
-            " : " +
-            data[classname].pronounciation +
-            "<br>" +
-            data[classname].meaning; */
-          const text =
-            data[classname].word +
-            " : " +
-            data[classname].pronounciation +
-            "<br><br>" +
-            data[classname].meaning;
-          modal.textContent = "";
-          modal.insertAdjacentHTML("beforeend", text);
-          isModalShowing = true;
-        });
-      }
-
-      /*  })
+          for (let i = 0; i < spans.length; i++) {
+            spans[i].addEventListener("click", function (element) {
+              event.stopPropagation();
+              modal.classList.add("showing");
+              const classname = spans[i].className;
+              const text =
+                data[classname].word +
+                " : " +
+                data[classname].pronounciation +
+                "<br><br>" +
+                data[classname].meaning;
+              modal.textContent = "";
+              modal.insertAdjacentHTML("beforeend", text);
+              isModalShowing = true;
+            });
+          }
+        })
         .catch(function (error) {
           console.log("Error: " + error.message);
-        }); */
+        });
     </script>
   </body>
 </html>
