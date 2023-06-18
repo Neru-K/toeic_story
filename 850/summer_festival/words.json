@@ -864,5 +864,133 @@
     "word": "Poignant",
     "pronounciation": "/ˈpɔɪ.njənt/",
     "meaning": "心を打つ、痛ましい。深く感動を呼び起こすような、切ない感じを表す形容詞。"
+  },
+
+  "confusion": {
+    "word": "Confusion",
+    "pronounciation": "/kənˈfjuː.ʒən/",
+    "meaning": "混乱、困惑。何かがはっきりしない状態や混沌とした状況を指す名詞。"
+  },
+  "irritation": {
+    "word": "Irritation",
+    "pronounciation": "/ˌɪr.ɪˈteɪ.ʃən/",
+    "meaning": "苛立ち、いらだち。不快感やイライラを引き起こすことを示す名詞。"
+  },
+  "reprimand": {
+    "word": "Reprimand",
+    "pronounciation": "/ˈrɛp.rɪˌmænd/",
+    "meaning": "叱責、厳重注意。注意や非難の言葉を含む行動を意味する名詞。"
+  },
+
+  "abruptly": {
+    "word": "Abruptly",
+    "pronounciation": "/əˈbrʌpt.li/",
+    "meaning": "突然に、急に。突然で予期せずに行われることを意味する副詞。"
+  },
+  "implore": {
+    "word": "Implore",
+    "pronounciation": "/ɪmˈplɔr/",
+    "meaning": "懇願する、嘆願する。強くお願いしたり、嘆願したりすることを示す動詞。"
+  },
+  "disappear": {
+    "word": "Disappear",
+    "pronounciation": "/ˌdɪs.əˈpɪr/",
+    "meaning": "消える、姿を消す。存在していたものや人が見えなくなることを意味する動詞。"
+  },
+  "missing": {
+    "word": "Missing",
+    "pronounciation": "/ˈmɪs.ɪŋ/",
+    "meaning": "行方不明の、行方知れずの。見つからない状態や行方不明の状態を示す形容詞。"
+  },
+  "remorse": {
+    "word": "Remorse",
+    "pronounciation": "/rɪˈmɔrs/",
+    "meaning": "自責の念、後悔。自分の行動や過ちに対する後悔や自責の念を指す名詞。"
+  },
+  "potent": {
+    "word": "Potent",
+    "pronounciation": "/ˈpoʊ.t̬ənt/",
+    "meaning": "力強い、強力な。力強さや効力のあることを示す形容詞。"
+  },
+  "dominant": {
+    "word": "Dominant",
+    "pronounciation": "/ˈdɑː.mə.nənt/",
+    "meaning": "支配的な、優勢な。他の要素よりも強力で、主導権を握ることを示す形容詞。"
+  },
+  "whirlpool": {
+    "word": "Whirlpool",
+    "pronounciation": "/ˈwɜrl.puːl/",
+    "meaning": "渦巻き、渦潮。水や空気などが渦を巻いている状態を表す名詞。"
+  },
+  "ridden": {
+    "word": "ridden",
+    "pronounciation": "/ˈɡɪlt ˌrɪd.n̩/",
+    "meaning": "罪悪感にさいなまれた、罪悪感に苦しむ。強い罪悪感や後ろめたさを抱えた状態を示す形容詞。"
+  },
+  "anecdote": {
+    "word": "Anecdote",
+    "pronounciation": "/ˈæn.ɪk.doʊt/",
+    "meaning": "逸話、秘話。短い話や個人的な体験を指す名詞。"
+  },
+  "regret": {
+    "word": "Regret",
+    "pronounciation": "/rɪˈɡrɛt/",
+    "meaning": "後悔、遺憾。過去の行動や決定に対する後悔や遺憾の気持ちを表す名詞。"
+  },
+  "entertain": {
+    "word": "Entertain",
+    "pronounciation": "/ˌɛn.t̬ɚˈteɪn/",
+    "meaning": "楽しませる、もてなす。楽しませたり、もてなしたりすることを示す動詞。"
+  },
+  "odd": {
+    "word": "Odd",
+    "pronounciation": "/ɑːd/",
+    "meaning": "奇妙な、変わった。通常とは異なる、奇妙な様子や特徴を持つことを示す形容詞。"
+  },
+
+  "tumbled": {
+    "word": "Tumbled",
+    "pronounciation": "/ˈtʌm.bəld/",
+    "meaning": "転がる、転倒する。転ぶなどの突然の動きをすることを意味する動詞。"
+  },
+  "disorienting": {
+    "word": "Disorienting",
+    "pronounciation": "/dɪˈsɔːr.iːn.t̬ɪŋ/",
+    "meaning": "方向感覚を失わせる、混乱させる。方向感覚を失ったり、混乱させるような状態を示す形容詞。"
+  },
+  "realm": {
+    "word": "Realm",
+    "pronounciation": "/rɛlm/",
+    "meaning": "領域、領土。特定の分野や範囲を指す名詞。"
+  },
+  "detachment": {
+    "word": "Detachment",
+    "pronounciation": "/dɪˈtætʃ.mənt/",
+    "meaning": "分離、無関心。感情や関心を持たず、客観的な立場に立つことを示す名詞。"
+  },
+  "consequence": {
+    "word": "Consequence",
+    "pronounciation": "/ˈkɑːn.sɪ.kwɛns/",
+    "meaning": "結果、影響。ある行動や出来事によって生じる結果や影響を指す名詞。"
+  },
+  "uncertainty": {
+    "word": "Uncertainty",
+    "pronounciation": "/ʌnˈsɝː.tən.t̬i/",
+    "meaning": "不確かさ、不安定さ。確信や安定感がなく、不確実な状態を表す名詞。"
+  },
+  "dialogue": {
+    "word": "Dialogue",
+    "pronounciation": "/ˈdaɪ.əˌlɔːɡ/",
+    "meaning": "対話、会話。2人以上の人々の間で行われる会話や対話を指す名詞。"
+  },
+  "trapped": {
+    "word": "Trapped",
+    "pronounciation": "/træpt/",
+    "meaning": "閉じ込められた、取り囲まれた。動けずに閉じ込められた状態や制約された状態を示す形容詞。"
+  },
+  "fiction": {
+    "word": "Fiction",
+    "pronounciation": "/ˈfɪk.ʃən/",
+    "meaning": "架空の、フィクションの。現実ではなく架空のものやフィクションに関連することを示す名詞。"
   }
 }
