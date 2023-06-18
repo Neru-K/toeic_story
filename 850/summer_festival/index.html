@@ -245,6 +245,7 @@
       </p>
     </div>
     <div id="story">
+      <h2>Chapter 3: Reluctant Reunion</h2>
       <p>
         Yukari woke up on the day of the summer festival, her heart weighed down
         by a sense of
@@ -369,7 +370,7 @@
               event.stopPropagation();
               modal.classList.add("showing");
               const classname = spans[i].className;
-              if (!data[classname].word) {
+              if (!data[classname].hasOwnProperty("word")) {
                 return;
               }
               const text =
