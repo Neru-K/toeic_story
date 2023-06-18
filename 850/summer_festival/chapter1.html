@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 1: Signs of Summer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Noto Sans JP", sans-serif;
+      }
+      h2 {
+        font-weight: 600;
+      }
+      #story {
+        max-width: 620px;
+        width: 94%;
+        margin: 10vh auto;
+        line-height: 2;
+      }
+      #story > p > span {
+        background: linear-gradient(transparent 60%, #fffb02b2 60%);
+        pointer-events: auto;
+        cursor: pointer;
+      }
+      #story > p > span:hover {
+        opacity: 0.6;
+      }
+      #modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 70%;
+        max-width: 450px;
+        height: 50%;
+        max-height: 300px;
+        background-color: #ffffff;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        border: 1px solid;
+        display: none;
+      }
+      #modal.showing {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="story">
+      <h2>Chapter 1: Signs of Summer</h2>
+      <p>
+        <span class="fresh_off">Fresh off</span> her shift from the
+        <span class="psychiatric">psychiatric</span>
+        <span class="ward">ward</span>, Yukari found herself moving
+        <span class="mechanically">mechanically</span> down the
+        <span class="well_trodden">well-trodden</span> path leading to her
+        <span class="humble">humble</span> <span class="abode">abode</span>. As
+        the setting sun painted the sky in <span class="hues">hues</span> of
+        gold and <span class="crimson">crimson</span>, a sharp contrast to the
+        <span class="sterilized">sterilized</span> white of the ward she was
+        <span class="accustomed">accustomed</span> to, a distant
+        <span class="clamor">clamor</span> reached her ears.
+      </p>
+      <p>
+        Pausing her <span class="strides">strides</span>, she noticed a
+        <span class="bustle">bustle</span> of activity from a distance,
+        <span class="emanating">emanating</span> an unusual aura for an
+        otherwise sleepy town. The diligent
+        <span class="townfolk">townfolk</span> were assembling stalls and
+        hanging <span class="vibrantly">vibrantly</span> colored
+        <span class="lanterns">lanterns</span>, their efforts marking the
+        arrival of the <span class="impending">impending</span> summer festival.
+      </p>
+      <p>
+        A slight change in the <span class="breeze">breeze</span> seemed to
+        carry the subtle <span class="scent">scent</span> of excitement,
+        anticipation, and a myriad of summer delights that always accompanied
+        such <span class="gatherings">gatherings</span>. However, it failed to
+        lighten Yukari's spirit, instead adding a certain heaviness to her
+        heart.
+      </p>
+      <p>
+        Bypassing the <span class="boisterous">boisterous</span> setup, she
+        continued on her way. Her <span class="attire">attire</span>, far
+        removed from her professional <span class="ensemble">ensemble</span>,
+        was <span class="nondescript">nondescript</span>. A pair of comfortable
+        <span class="trousers">trousers</span> and a loose, light-colored
+        <span class="blouse">blouse</span> seemed
+        <span class="fitting">fitting</span> for the
+        <span class="humid">humid</span> evening, barely concealing the
+        <span class="fatigue">fatigue</span> she carried from her demanding
+        vocation.
+      </p>
+      <p>
+        An unexpected memory, seemingly
+        <span class="incongruous">incongruous</span> with her current
+        <span class="disposition">disposition</span>, found its way into her
+        thoughts as she continued her solitary journey. A fleeting
+        <span class="recollection">recollection</span> of a past summer festival
+        where her younger sister, Chisato,
+        <span class="gleefully">gleefully</span> claimed to have spotted a
+        rabbit amongst the sea of people.
+      </p>
+      <p>
+        Yukari remembered not seeing any rabbit that day and found herself
+        slightly annoyed at her sister's
+        <span class="baseless">baseless</span> excitement. But that was a
+        different time, a different world. Now, the echo of Chisato's joyous
+        <span class="proclamation">proclamation</span>
+        <span class="lingered">lingered</span> in the quiet corners of Yukari's
+        mind, an <span class="unbidden">unbidden</span> ghost from a past
+        summer.
+      </p>
+      <p>
+        The <span class="clamor">clamor</span> of the festival preparation
+        <span class="receded">receded</span> as Yukari reached her apartment
+        building, its familiar silhouette providing a
+        <span class="sanctuary">sanctuary</span> from the world outside. The
+        festival was on its way, a <span class="harbinger">harbinger</span> of
+        the summer season that everyone else seemed to eagerly anticipate. Yet,
+        for Yukari, it served as a reminder, not of joy and celebration, but of
+        a memory that would return <span class="unbidden">unbidden</span>, like
+        the <span class="inescapable">inescapable</span> heat of summer itself.
+      </p>
+      <p>
+        In the <span class="intimate">intimate</span> silence of her room, as
+        the world outside continued its festive hustle, Yukari fell into an
+        unrestful <span class="slumber">slumber</span>, her sleep the only
+        escape from the <span class="encroaching">encroaching</span> summer and
+        the impending festival.
+      </p>
+    </div>
+    <div id="modal"></div>
+    <script>
+      const url = "./words.json";
+      let isModalShowing = false;
+      const modal = document.getElementById("modal");
+      const spans = document.querySelectorAll("span");
+
+      const json = `
+      {
+  "fresh_off": {
+    "word": "Fresh off",
+    "pronounciation": "",
+    "meaning": "直後に、すぐに。何かの活動や経験の直後に行われることを表す。"
+  },
+  "psychiatric": {
+    "word": "Psychiatric",
+    "pronounciation": "/ˌsaɪ.kiˈæt.rɪk/",
+    "meaning": "精神医学の、精神医学的な。心の健康や障害に関連する医学の分野。"
+  },
+  "ward": {
+    "word": "Ward",
+    "pronounciation": "/wɔːrd/",
+    "meaning": "病棟、病室。病院内で特定の目的や治療方法に基づいて患者が集められたエリア。"
+  },
+  "mechanically": {
+    "word": "Mechanically",
+    "pronounciation": "/mɪˈkænɪkli/",
+    "meaning": "機械的に、無意識に。自動的で意識的な考慮なしに行われる様子。"
+  },
+  "well_trodden": {
+    "word": "Well-trodden",
+    "pronounciation": "/ˌwɛl ˈtrɒdn/",
+    "meaning": "多くの人々によって使用され、足跡や道が明確になっている。頻繁に通られた場所や経路を指す形容詞。"
+  },
+  "humble": {
+    "word": "Humble",
+    "pronounciation": "/ˈhʌmbl/",
+    "meaning": "謙虚な、質素な。控えめな状態や外観を指す。"
+  },
+  "abode": {
+    "word": "Abode",
+    "pronounciation": "/əˈboʊd/",
+    "meaning": "住居、住まい。人が暮らす場所や家。"
+  },
+  "hues": {
+    "word": "Hues",
+    "pronounciation": "/hjuːz/",
+    "meaning": "色合い、色調。色彩のさまざまなバリエーションやニュアンス。"
+  },
+  "crimson": {
+    "word": "Crimson",
+    "pronounciation": "/ˈkrɪmzn/",
+    "meaning": "深紅色の、赤紅色の。鮮やかな赤色を指す形容詞で、濃い赤の色合いを表現します。"
+  },
+  "sterilized": {
+    "word": "Sterilized",
+    "pronounciation": "/ˈstɛrəˌlaɪzd/",
+    "meaning": "殺菌された、無菌の。微生物や病原体が存在しないように処理された状態。"
+  },
+  "accustomed": {
+    "word": "Accustomed",
+    "pronounciation": "/əˈkʌstəmd/",
+    "meaning": "慣れている、習慣的な。何かに慣れ親しんでいることや、習慣的に行うことを指します。"
+  },
+  "clamor": {
+    "word": "Clamor",
+    "pronounciation": "/ˈklæmər/",
+    "meaning": "騒ぎ、喧騒。大きな騒音や喧噪の状態。"
+  },
+  "strides": {
+    "word": "Strides",
+    "pronounciation": "/straɪdz/",
+    "meaning": "歩幅、大股で歩くこと。一歩ごとの距離を指すこともある。"
+  },
+  "bustle": {
+    "word": "Bustle",
+    "pronounciation": "/ˈbʌsəl/",
+    "meaning": "喧騒、騒ぎ。忙しく活気のある様子。"
+  },
+  "emanating": {
+    "word": "Emanating",
+    "pronounciation": "/ˈɛməˌneɪtɪŋ/",
+    "meaning": "発する、発散する。特定の場所から出てくる、広がる。"
+  },
+  "vibrantly": {
+    "word": "Vibrantly",
+    "pronounciation": "/ˈvaɪbrəntli/",
+    "meaning": "活気に満ちた、生き生きとした。明るく、活発な様子。"
+  },
+  "nondescript": {
+    "word": "Nondescript",
+    "pronounciation": "/nɒnˈdɛskrɪpt/",
+    "meaning": "目立たない、特徴のない。普通であり、個性がない様子を表す。"
+  },
+  "townfolk": {
+    "word": "Townfolk",
+    "pronounciation": "/ˈtaʊnˌfoʊk/",
+    "meaning": "町の人々。特定の町や地域の住民。"
+  },
+  "lanterns": {
+    "word": "Lanterns",
+    "pronounciation": "/ˈlæntərnz/",
+    "meaning": "ランタン、提灯。光を放つ装置、特に手で持って移動できるもの。"
+  },
+  "impending": {
+    "word": "Impending",
+    "pronounciation": "/ɪmˈpɛndɪŋ/",
+    "meaning": "差し迫った、迫り来る。間近に迫っている、起こる予定のあることを指す。"
+  },
+  "breeze": {
+    "word": "Breeze",
+    "pronounciation": "/briːz/",
+    "meaning": "そよ風、微風。軽く、穏やかに吹く風。"
+  },
+  "scent": {
+    "word": "Scent",
+    "pronounciation": "/sɛnt/",
+    "meaning": "香り、におい。特定の物事から出る特有の香りや匂い。"
+  },
+  "gatherings": {
+    "word": "Gatherings",
+    "pronounciation": "/ˈgæðərɪŋz/",
+    "meaning": "集まり、会合。特定の目的のために人々が一緒に集まること。"
+  },
+  "boisterous": {
+    "word": "Boisterous",
+    "pronounciation": "/ˈboɪstərəs/",
+    "meaning": "騒々しい、賑やかな。騒音や活気に満ちた様子。"
+  },
+  "attire": {
+    "word": "Attire",
+    "pronounciation": "/əˈtaɪər/",
+    "meaning": "服装、衣装。特定の場面や目的に合わせて身に着ける衣類。"
+  },
+  "ensemble": {
+    "word": "Ensemble",
+    "pronounciation": "",
+    "meaning": "アンサンブル、一揃い。協調して機能する一連のアイテム。"
+  },
+  "trousers": {
+    "word": "Trousers",
+    "pronounciation": "/ˈtraʊzərz/",
+    "meaning": "ズボン、パンツ。下半身を覆うための衣服の一種。"
+  },
+  "blouse": {
+    "word": "Blouse",
+    "pronounciation": "/blaʊz/",
+    "meaning": "ブラウス。女性用の上着、特に襟と袖のついたもの。"
+  },
+  "fitting": {
+    "word": "Fitting",
+    "pronounciation": "/ˈfɪtɪŋ/",
+    "meaning": "適切な、ふさわしい。特定の目的や条件に適合すること。"
+  },
+  "humid": {
+    "word": "Humid",
+    "pronounciation": "/ˈhjuːmɪd/",
+    "meaning": "湿度が高い、湿った。空気中に多量の水分が含まれている状態。"
+  },
+  "fatigue": {
+    "word": "Fatigue",
+    "pronounciation": "/fəˈtiːg/",
+    "meaning": "疲労、疲れ。身体的または精神的な活動による強い疲労感。"
+  },
+
+  "incongruous": {
+    "word": "Incongruous",
+    "pronounciation": "/ɪnˈkɒŋgruəs/",
+    "meaning": "不調和な、矛盾した。他の要素や状況と調和しないこと。"
+  },
+  "disposition": {
+    "word": "Disposition",
+    "pronounciation": "/ˌdɪspəˈzɪʃən/",
+    "meaning": "性格、気質。人の一般的な性格や態度。"
+  },
+  "recollection": {
+    "word": "Recollection",
+    "pronounciation": "/ˌrɛkəˈlɛkʃən/",
+    "meaning": "追憶、思い出。過去の出来事や情報を思い出すこと。"
+  },
+  "gleefully": {
+    "word": "Gleefully",
+    "pronounciation": "/ˈgliːfʊli/",
+    "meaning": "陽気に、楽しそうに。喜びや楽しみを表す陽気な様子。"
+  },
+  "baseless": {
+    "word": "Baseless",
+    "pronounciation": "/ˈbeɪslɪs/",
+    "meaning": "根拠のない、根拠のない。理由や根拠がないことを指す。"
+  },
+  "proclamation": {
+    "word": "Proclamation",
+    "pronounciation": "/ˌprɒkləˈmeɪʃən/",
+    "meaning": "宣言、告示。公に何かを発表すること。"
+  },
+  "lingered": {
+    "word": "Lingered",
+    "pronounciation": "/ˈlɪŋɡərd/",
+    "meaning": "残る、長引く。ある場所や状況にしばらくとどまる。"
+  },
+  "receded": {
+    "word": "Receded",
+    "pronounciation": "/rɪˈsiːdɪd/",
+    "meaning": "後退する、遠ざかる。距離を取る、弱まる。"
+  },
+  "sanctuary": {
+    "word": "Sanctuary",
+    "pronounciation": "/ˈsæŋktʃuˌɛri/",
+    "meaning": "聖域、避難所。安全や平穏を提供する場所。"
+  },
+  "harbinger": {
+    "word": "Harbinger",
+    "pronounciation": "/ˈhɑːrbɪndʒər/",
+    "meaning": "前触れ、先駆者。将来の出来事や変化の到来を予告するもの。"
+  },
+  "unbidden": {
+    "word": "Unbidden",
+    "pronounciation": "/ʌnˈbɪdn/",
+    "meaning": "招かれざる、予期しない。招待されずに現れたり発生したりすること。"
+  },
+  "inescapable": {
+    "word": "Inescapable",
+    "pronounciation": "/ˌɪnɪˈskeɪpəbəl/",
+    "meaning": "避けられない、逃れられない。回避や逃避ができないこと。"
+  },
+  "intimate": {
+    "word": "Intimate",
+    "pronounciation": "/ˈɪntɪmət/",
+    "meaning": "親密な、密接な。親しい関係や状況を指す。"
+  },
+  "slumber": {
+    "word": "Slumber",
+    "pronounciation": "/ˈslʌmbər/",
+    "meaning": "眠り、睡眠。静かな状態で眠っていることを指す。"
+  },
+  "encroaching": {
+    "word": "Encroaching",
+    "pronounciation": "/ɪnˈkroʊʧɪŋ/",
+    "meaning": "侵入する、侵害する。次第に領域や領域に侵入すること。"
+  }
+}
+`;
+      const data = JSON.parse(json);
+
+      /* fetch(url)
+        .then(function (response) {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then(function (jsonData) {
+          var data = jsonData;
+          console.log(data); */
+      document.body.addEventListener("click", function () {
+        if (isModalShowing) {
+          modal.classList.remove("showing");
+          isModalShowing = false;
+        }
+      });
+
+      for (let i = 0; i < spans.length; i++) {
+        spans[i].addEventListener("click", function (element) {
+          event.stopPropagation();
+          modal.classList.add("showing");
+          const classname = spans[i].className;
+          /* modal.innerHTML =
+            data[classname].word +
+            " : " +
+            data[classname].pronounciation +
+            "<br>" +
+            data[classname].meaning; */
+          const text =
+            data[classname].word +
+            " : " +
+            data[classname].pronounciation +
+            "<br>" +
+            data[classname].meaning;
+          modal.textContent = "";
+          modal.insertAdjacentHTML("beforeend", text);
+          isModalShowing = true;
+        });
+      }
+
+      /*  })
+        .catch(function (error) {
+          console.log("Error: " + error.message);
+        }); */
+    </script>
+  </body>
+</html>
