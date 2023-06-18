@@ -37,7 +37,7 @@
         left: 50%;
         width: 70%;
         max-width: 450px;
-        height: 50%;
+        height: max-content;
         max-height: 300px;
         background-color: #ffffff;
         transform: translate(-50%, -50%);
@@ -411,7 +411,7 @@
             data[classname].word +
             " : " +
             data[classname].pronounciation +
-            "<br>" +
+            "<br><br>" +
             data[classname].meaning;
           modal.textContent = "";
           modal.insertAdjacentHTML("beforeend", text);
