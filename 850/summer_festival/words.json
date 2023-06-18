@@ -652,5 +652,230 @@
     "word": "Icy",
     "pronounciation": "/ˈaɪ.si/",
     "meaning": "氷のような、冷たい。氷のように冷たい、冷淡な様子を表す形容詞。感情や態度が冷たく、温かみや感情のない状態を指す。"
+  },
+  "ensue": {
+    "word": "ensue",
+    "pronounciation": "ɪnˈsuː",
+    "meagning": "続く、起こる。ある出来事や行動が別の出来事や行動に続いて起こることを意味する動詞。"
+  },
+  "reluctantly": {
+    "word": "reluctantly",
+    "pronounciation": "rɪˈlʌk.tənt.li",
+    "meagning": "渋々と、気乗りしない様子で。不本意ながらも、何かを行う様子や態度を表す副詞。"
+  },
+  "accompanying": {
+    "word": "Accompanying",
+    "pronounciation": "əˈkʌm.pə.ni.ɪŋ",
+    "meagning": "伴う、同行する。他のものや人と一緒に存在したり、同行したりすることを示す形容詞。"
+  },
+  "dense": {
+    "word": "Dense",
+    "pronounciation": "dɛns",
+    "meagning": "密集した、濃い。物質が集中している状態を表す形容詞。詰まっていたり、濃い状態を指す。"
+  },
+  "assorted": {
+    "word": "Assorted",
+    "pronounciation": "əˈsɔr.t̬ɪd",
+    "meagning": "種々雑多な、さまざまな。さまざまな種類や種類の異なるものが混ざっていることを示す形容詞。"
+  },
+  "culinary": {
+    "word": "Culinary",
+    "pronounciation": "ˈkjuː.ləˌner.i",
+    "meagning": "料理の、調理の。料理や食べ物に関連することを意味する形容詞。"
+  },
+  "enticing": {
+    "word": "Enticing",
+    "pronounciation": "ɪnˈtaɪ.sɪŋ",
+    "meagning": "魅力的な、誘惑する。引きつけるような魅力を持つことを示す形容詞。"
+  },
+  "overwhelming": {
+    "word": "Overwhelming",
+    "pronounciation": "ˌoʊ.vɚˈwɛl.mɪŋ",
+    "meagning": "圧倒的な、圧倒する。非常に強力で、抵抗し難いほどの影響や感情を含む形容詞。"
+  },
+  "stifling": {
+    "word": "Stifling",
+    "pronounciation": "ˈstaɪ.flɪŋ",
+    "meagning": "窒息するような、息苦しい。空気や状況が息苦しく圧迫感があるような様子を表す形容詞。"
+  },
+  "exhausted": {
+    "word": "Exhausted",
+    "pronounciation": "ɪɡˈzɔs.t̬ɪd",
+    "meagning": "疲れ切った、疲れ果てた。非常に疲れている状態を示す形容詞。"
+  },
+  "jubilant": {
+    "word": "Jubilant",
+    "pronounciation": "ˈdʒuː.bəl.ənt",
+    "meagning": "歓喜に満ちた、陽気な。喜びや陽気な様子を表す形容詞。"
+  },
+  "commotion": {
+    "word": "Commotion",
+    "pronounciation": "kəˈmoʊ.ʃən",
+    "meagning": "騒ぎ、騒動。大騒ぎや混乱した状態を指す名詞。"
+  },
+  "nausea": {
+    "word": "Nausea",
+    "pronounciation": "ˈnɔː.zi.ə",
+    "meagning": "吐き気、嘔吐感。胃の不快感や嘔吐感を表す名詞。"
+  },
+  "dread": {
+    "word": "Dread",
+    "pronounciation": "drɛd",
+    "meagning": "恐怖、不安。強い恐怖や不安を感じることを指す名詞。"
+  },
+  "mutter": {
+    "word": "Mutter",
+    "pronounciation": "ˈmʌt̬.ɚ",
+    "meagning": "つぶやく、呟く。小声で言葉をつぶやくことを意味する動詞。"
+  },
+  "strained": {
+    "word": "Strained",
+    "pronounciation": "streɪnd",
+    "meagning": "緊張した、張り詰めた。緊張や圧迫感がある状態を示す形容詞。"
+  },
+  "meander": {
+    "word": "Meander",
+    "pronounciation": "miˈænd.ɚ",
+    "meagning": "ぶらつく、歩き回る。目的もなくゆっくりと歩き回ることを意味する動詞。"
+  },
+  "venue": {
+    "word": "Venue",
+    "pronounciation": "ˈvɛn.juː",
+    "meagning": "会場、場所。イベントや集まりが行われる場所を指す名詞。"
+  },
+  "serene": {
+    "word": "Serene",
+    "pronounciation": "səˈriːn",
+    "meagning": "静かな、穏やかな。平穏で静かな状態や雰囲気を表す形容詞。"
+  },
+  "discomfort": {
+    "word": "Discomfort",
+    "pronounciation": "dɪsˈkʌm.fɚt",
+    "meagning": "不快、不快感。不快や不快感を指す名詞。"
+  },
+  "tranquility": {
+    "word": "Tranquility",
+    "pronounciation": "træŋˈkwɪl.ə.t̬i",
+    "meagning": "静けさ、平穏。静けさや穏やかな状態を表す名詞。"
+  },
+  "persistent": {
+    "word": "Persistent",
+    "pronounciation": "pɚˈsɪs.tənt",
+    "meagning": "強固な、しつこい。継続的に行われるまたは存在することを示す形容詞。"
+  },
+  "unveil": {
+    "word": "Unveil",
+    "pronounciation": "ʌnˈveɪl",
+    "meagning": "明らかにする、発表する。秘密や隠されたものを明らかにすることを意味する動詞。"
+  },
+  "uninvited": {
+    "word": "Uninvited",
+    "pronounciation": "ˌʌn.ɪnˈvaɪ.t̬ɪd",
+    "meagning": "招かれていない、無作法な。招待されていない状態や行動を示す形容詞。"
+  },
+  "decade": {
+    "word": "Decade",
+    "pronounciation": "ˈdɛ.keɪd",
+    "meagning": "10年間。10年の期間を指す名詞。"
+  },
+  "crowded": {
+    "word": "Crowded",
+    "pronounciation": "ˈkraʊ.dɪd",
+    "meagning": "混雑した、込み合った。多くの人や物でいっぱいである状態を示す形容詞。"
+  },
+  "boisterous": {
+    "word": "Boisterous",
+    "pronounciation": "ˈbɔɪ.stɚ.əs",
+    "meagning": "騒々しい、活発な。活気があり、騒がしい様子を表す形容詞。"
+  },
+  "relieve": {
+    "word": "Relieve",
+    "pronounciation": "rɪˈliːv",
+    "meagning": "和らげる、軽減する。痛みや不快感を和らげたり、軽減したりすることを意味する動詞。"
+  },
+  "overheated": {
+    "word": "Overheated",
+    "pronounciation": "ˌoʊ.vɚˈhiː.t̬ɪd",
+    "meagning": "熱中しすぎた、過熱した。過度に興奮した状態や過熱した状態を示す形容詞。"
+  },
+  "reminiscence": {
+    "word": "Reminiscence",
+    "pronounciation": "ˌrɛm.əˈnɪs.əns",
+    "meagning": "追憶、回想。過去の出来事や思い出を回想することを指す名詞。"
+  },
+  "melancholy": {
+    "word": "Melancholy",
+    "pronounciation": "ˈmɛ.lən.kɑː.li",
+    "meagning": "憂鬱、メランコリー。悲しみや哀愁を含む感情を表す名詞。"
+  },
+  "mingle": {
+    "word": "Mingle",
+    "pronounciation": "ˈmɪŋ.ɡəl",
+    "meagning": "交ざる、混ざる。人々が一緒に集まり、混ざり合うことを意味する動詞。"
+  },
+  "glimpse": {
+    "word": "Glimpse",
+    "pronounciation": "ɡlɪmps",
+    "meagning": "ちらりと見る、一瞥する。一瞬だけ見えることを意味する動詞。"
+  },
+  "longing": {
+    "word": "Longing",
+    "pronounciation": "ˈlɔŋ.ɪŋ",
+    "meagning": "切望、憧れ。強い欲望や切望の感情を示す名詞。"
+  },
+  "cherish": {
+    "word": "Cherish",
+    "pronounciation": "ˈtʃɛr.ɪʃ",
+    "meagning": "大切にする、心に抱く。特別な感情や思い出を大切にすることを意味する動詞。"
+  },
+  "bittersweet": {
+    "word": "Bittersweet",
+    "pronounciation": "ˌbɪt̬.ɚˈswiːt",
+    "meagning": "甘く切ない、苦々しい。喜びと悲しみを同時に感じさせるような感情や経験を表す形容詞。"
+  },
+  "nostalgia": {
+    "word": "Nostalgia",
+    "pronounciation": "nɑːˈstæl.dʒə",
+    "meagning": "ノスタルジア、郷愁。過去の出来事や時代への懐かしさや郷愁を指す名詞。"
+  },
+  "treasure": {
+    "word": "Treasure",
+    "pronounciation": "ˈtrɛʒ.ɚ",
+    "meagning": "宝物、大切なもの。価値のあるものや大切なものを指す名詞。"
+  },
+  "fond": {
+    "word": "Fond",
+    "pronounciation": "fɑːnd",
+    "meagning": "愛着のある、好意を抱いた。深い愛情や好意を持つことを示す形容詞。"
+  },
+  "vibrant": {
+    "word": "Vibrant",
+    "pronounciation": "ˈvaɪ.brənt",
+    "meagning": "活気に満ちた、鮮やかな。活力にあふれ、明るく鮮やかな様子を表す形容詞。"
+  },
+  "evoke": {
+    "word": "Evoke",
+    "pronounciation": "ɪˈvoʊk",
+    "meagning": "喚起する、呼び起こす。感情や思い出を喚起したり、呼び起こしたりすることを意味する動詞。"
+  },
+  "resonate": {
+    "word": "Resonate",
+    "pronounciation": "ˈrɛz.ə.neɪt",
+    "meagning": "共感する、鳴り響く。共感や共鳴を示し、深く心に響くことを意味する動詞。"
+  },
+  "solace": {
+    "word": "Solace",
+    "pronounciation": "ˈsoʊ.lɪs",
+    "meagning": "慰め、心の支え。慰めや心の支えを指す名詞。"
+  },
+  "yearn": {
+    "word": "Yearn",
+    "pronounciation": "jɜrn",
+    "meagning": "切望する、憧れる。強く願い、切望することを意味する動詞。"
+  },
+  "poignant": {
+    "word": "Poignant",
+    "pronounciation": "ˈpɔɪ.njənt",
+    "meagning": "心を打つ、痛ましい。深く感動を呼び起こすような、切ない感じを表す形容詞。"
   }
 }
