@@ -292,8 +292,7 @@
         On arriving at the designated meeting spot, Yukari found herself greeted
         by an array of familiar faces. Friends from their
         <span class="regular">regular</span> café meetups were present, each one
-        of them dressed in a brightly colored
-        <span class="yukata">yukata</span> that stood in
+        of them dressed in a brightly colored yukata that stood in
         <span class="stark">stark</span> contrast to Yukari's
         <span class="modest">modest</span> <span class="attire">attire</span>.
         Along with the <span class="regular">regular</span> crowd, she was
@@ -368,20 +367,20 @@
           for (let i = 0; i < spans.length; i++) {
             spans[i].addEventListener("click", function (element) {
               event.stopPropagation();
-              modal.classList.add("showing");
+
               const classname = spans[i].className;
-              if (!data[classname].hasOwnProperty("word")) {
-                return;
+              if (data.hasOwnProperty(classname)) {
+                modal.classList.add("showing");
+                const text =
+                  data[classname].word +
+                  " : " +
+                  data[classname].pronounciation +
+                  "<br><br>" +
+                  data[classname].meaning;
+                modal.textContent = "";
+                modal.insertAdjacentHTML("beforeend", text);
+                isModalShowing = true;
               }
-              const text =
-                data[classname].word +
-                " : " +
-                data[classname].pronounciation +
-                "<br><br>" +
-                data[classname].meaning;
-              modal.textContent = "";
-              modal.insertAdjacentHTML("beforeend", text);
-              isModalShowing = true;
             });
           }
         })
