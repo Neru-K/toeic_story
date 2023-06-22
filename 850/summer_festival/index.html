@@ -508,7 +508,7 @@
             spans[i].addEventListener("click", function (element) {
               event.stopPropagation();
 
-              const classname = spans[i].className;
+              const classname = spans[i].className.replace("toeic", "").trim();
               if (data.hasOwnProperty(classname)) {
                 modal.classList.add("showing");
                 const text =
