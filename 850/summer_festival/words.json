@@ -992,5 +992,50 @@
     "word": "Fiction",
     "pronounciation": "/ˈfɪk.ʃən/",
     "meaning": "架空の、フィクションの。現実ではなく架空のものやフィクションに関連することを示す名詞。"
+  },
+  "commuter": {
+    "word": "Commuter",
+    "pronounciation": "/kəˈmjuː.tər/",
+    "meaning": "通勤者、通学者。定期的に自宅と職場・学校を行き来する人。"
+  },
+  "patiently": {
+    "word": "Patiently",
+    "pronounciation": "/ˈpeɪʃəntli/",
+    "meaning": "辛抱強く、忍耐強く。何かが起こるまで、または何かが終わるまで静かに待つこと。"
+  },
+  "voluntary": {
+    "word": "Voluntary",
+    "pronounciation": "/ˈvɒl.ən.ter.i/",
+    "meaning": "自発的な、自由意志に基づく。特定の行動や決定が強制されることなく個人の意志によって行われる。"
+  },
+  "agreeable": {
+    "word": "Agreeable",
+    "pronounciation": "/əˈɡriː.ə.bəl/",
+    "meaning": "愉快な、賛成できる。感じが良い、または何かに同意できること。"
+  },
+  "overwhelmingly": {
+    "word": "Overwhelmingly",
+    "pronounciation": "/əʊ.vəˈwɛl.mɪŋ.li/",
+    "meaning": "圧倒的に、大いに。ある感情、感覚、状況が非常に強く、制御不能なレベルで体験される様子。"
+  },
+  "distraction": {
+    "word": "Distraction",
+    "pronounciation": "/dɪˈstræk.ʃən/",
+    "meaning": "気晴らし、気を散らすもの。注意を別の方向に向けること、またはその結果。"
+  },
+  "remedy": {
+    "word": "Remedy",
+    "pronounciation": "/ˈrem.ə.di/",
+    "meaning": "解決策、治療法。問題または不快な状況を改善するための手段または行動。"
+  },
+  "excerpt": {
+    "word": "Excerpt",
+    "pronounciation": "/ˈek.sɜːrpt/",
+    "meaning": "抜粋、引用。書籍、映画、音楽などからの一部分。"
+  },
+  "significance": {
+    "word": "Significance",
+    "pronounciation": "/sɪɡˈnɪfɪkəns/",
+    "meaning": "重要性、意義。ある事象、アイデア、オブジェクトが持つ価値や意味。"
   }
 }
