@@ -27,27 +27,18 @@ class NextElement {
     this.nextButton = document.getElementById("next");
     this.x = document.querySelector(".x");
     this.circle = document.querySelector(".circle");
+
+    this.showQuiz = this.showQuiz.bind(this); // showQuizメソッドのthisをバインドする
   }
 
   init() {
-    const randomIndex = Math.floor(Math.random() * this.keys.length);
-    const randomKey = this.keys[randomIndex];
-    const element = this.data[randomKey];
-
-    this.h2.insertAdjacentText(
-      "beforebegin",
-      element.word + element.pronounciation
-    );
-    this.p.style.display = "none";
-    this.p.insertAdjacentText("beforebegin", element.meaning);
-
     this.nextButton.addEventListener("click", this.showQuiz);
+    this.displayNextElement();
   }
 
-  showQuiz() {
-    const randomIndex = Math.floor(Math.random() * this.keys.length);
-    this.keys.splice(randomIndex, 1);
+  displayNextElement() {
     if (this.keys.length > 0) {
+      const randomIndex = Math.floor(Math.random() * this.keys.length);
       const randomKey = this.keys[randomIndex];
       const element = this.data[randomKey];
 
@@ -57,9 +48,15 @@ class NextElement {
       );
       this.p.style.display = "none";
       this.p.insertAdjacentText("beforebegin", element.meaning);
+
+      this.keys.splice(randomIndex, 1);
     } else {
       console.log("すべての要素を表示しました。");
       this.nextButton.disabled = true; // ボタンを無効化する
     }
+  }
+
+  showQuiz() {
+    this.displayNextElement();
   }
 }
