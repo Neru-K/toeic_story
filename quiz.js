@@ -20,7 +20,7 @@ function quiz(url) {
 class NextElement {
   constructor(jsonData) {
     this.data = jsonData;
-    this.keys = Object.keys(data);
+    this.keys = Object.keys(this.data);
     this.h2 = document.querySelector("h2");
     this.p = document.querySelector("p");
     this.btn = document.getElementById("reveal");
@@ -30,9 +30,9 @@ class NextElement {
   }
 
   init() {
-    const randomIndex = Math.floor(Math.random() * keys.length);
-    const randomKey = keys[randomIndex];
-    const element = data[randomKey];
+    const randomIndex = Math.floor(Math.random() * this.keys.length);
+    const randomKey = this.keys[randomIndex];
+    const element = this.data[randomKey];
 
     this.h2.insertAdjacentText(
       "beforebegin",
@@ -47,9 +47,9 @@ class NextElement {
   showQuiz() {
     this.keys.splice(randomIndex, 1);
     if (this.keys.length > 0) {
-      const randomIndex = Math.floor(Math.random() * keys.length);
-      const randomKey = keys[randomIndex];
-      const element = data[randomKey];
+      const randomIndex = Math.floor(Math.random() * this.keys.length);
+      const randomKey = this.keys[randomIndex];
+      const element = this.data[randomKey];
 
       this.h2.insertAdjacentText(
         "beforebegin",
