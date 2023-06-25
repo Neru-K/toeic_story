@@ -45,9 +45,9 @@ class NextElement {
   }
 
   showQuiz() {
+    const randomIndex = Math.floor(Math.random() * this.keys.length);
     this.keys.splice(randomIndex, 1);
     if (this.keys.length > 0) {
-      const randomIndex = Math.floor(Math.random() * this.keys.length);
       const randomKey = this.keys[randomIndex];
       const element = this.data[randomKey];
 
