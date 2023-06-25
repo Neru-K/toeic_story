@@ -33,6 +33,9 @@ class NextElement {
 
   init() {
     this.nextButton.addEventListener("click", this.showQuiz);
+    this.btn.addEventListener("", function () {
+      this.p.display = "block";
+    });
     this.displayNextElement();
   }
 
