@@ -46,11 +46,11 @@ class NextElement {
       this.p.textContent = "";
 
       this.h2.insertAdjacentText(
-        "beforebegin",
-        element.word + element.pronounciation
+        "beforeend",
+        element.word + " " + element.pronounciation
       );
       this.p.style.display = "none";
-      this.p.insertAdjacentText("beforebegin", element.meaning);
+      this.p.insertAdjacentText("beforeend", element.meaning);
 
       this.keys.splice(randomIndex, 1);
     } else {
