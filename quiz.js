@@ -1,46 +1,65 @@
 function quiz(url) {
-    const h2 = document.querySelector("h2");
-    const p = document.querySelector("p");
-    const btn = document.getElementById("reveal");
-    const x = document.querySelector(".x");
-    const circle = document.querySelector(".circle");
-    const nextButton = document.getElementById('next');
+  let result = 0;
 
-    let result = 0;
-
-    fetch(url)
-        .then(function (response) {
-            if (!response.ok) {
-                throw new Error("Network response was not ok");
-            }
-            return response.json();
-        })
-        .then(function (jsonData) {
-            var data = jsonData;
-            const keys = Object.keys(data);
-            nextButton.addEventListener('click', nextElement);
-
-
-        })
-        .catch(function (error) {
-            console.log("Error: " + error.message);
-        });
+  fetch(url)
+    .then(function (response) {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.json();
+    })
+    .then(function (jsonData) {
+      const nextElement = new NextElement(jsonData);
+      nextElement.init();
+    })
+    .catch(function (error) {
+      console.log("Error: " + error.message);
+    });
 }
 
-function nextElement() {
-    if (keys.length > 0) {
-        var randomIndex = Math.floor(Math.random() * keys.length);
-        var randomKey = keys[randomIndex];
-        var element = data[randomKey];
+class NextElement {
+  constructor(jsonData) {
+    this.data = jsonData;
+    this.keys = Object.keys(data);
+    this.h2 = document.querySelector("h2");
+    this.p = document.querySelector("p");
+    this.btn = document.getElementById("reveal");
+    this.nextButton = document.getElementById("next");
+    this.x = document.querySelector(".x");
+    this.circle = document.querySelector(".circle");
+  }
 
-        h2.insertAdjacentText("beforebegin", element.word + element.pronounciation);
-        p.style.display = "none";
-        p.insertAdjacentText("beforebegin", element.meaning);
+  init() {
+    const randomIndex = Math.floor(Math.random() * keys.length);
+    const randomKey = keys[randomIndex];
+    const element = data[randomKey];
 
-        //displayedElements.push(randomKey);
-        keys.splice(randomIndex, 1);
+    this.h2.insertAdjacentText(
+      "beforebegin",
+      element.word + element.pronounciation
+    );
+    this.p.style.display = "none";
+    this.p.insertAdjacentText("beforebegin", element.meaning);
+
+    this.nextButton.addEventListener("click", this.showQuiz);
+  }
+
+  showQuiz() {
+    this.keys.splice(randomIndex, 1);
+    if (this.keys.length > 0) {
+      const randomIndex = Math.floor(Math.random() * keys.length);
+      const randomKey = keys[randomIndex];
+      const element = data[randomKey];
+
+      this.h2.insertAdjacentText(
+        "beforebegin",
+        element.word + element.pronounciation
+      );
+      this.p.style.display = "none";
+      this.p.insertAdjacentText("beforebegin", element.meaning);
     } else {
-        console.log("すべての要素を表示しました。");
-        nextButton.disabled = true; // ボタンを無効化する
+      console.log("すべての要素を表示しました。");
+      this.nextButton.disabled = true; // ボタンを無効化する
     }
+  }
 }
