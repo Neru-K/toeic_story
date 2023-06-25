@@ -42,6 +42,9 @@ class NextElement {
       const randomKey = this.keys[randomIndex];
       const element = this.data[randomKey];
 
+      this.h2.textContent = "";
+      this.p.textContent = "";
+
       this.h2.insertAdjacentText(
         "beforebegin",
         element.word + element.pronounciation
