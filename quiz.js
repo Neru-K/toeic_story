@@ -29,13 +29,12 @@ class NextElement {
     this.circle = document.querySelector(".circle");
 
     this.showQuiz = this.showQuiz.bind(this); // showQuizメソッドのthisをバインドする
+    this.showMeaning = this.showMeaning.bind(this);
   }
 
   init() {
     this.nextButton.addEventListener("click", this.showQuiz);
-    this.btn.addEventListener("click", function (this) {
-      this.p.display = "block";
-    });
+    this.btn.addEventListener("click", this.showMeaning);
     this.displayNextElement();
   }
 
@@ -60,6 +59,9 @@ class NextElement {
       console.log("すべての要素を表示しました。");
       this.nextButton.disabled = true; // ボタンを無効化する
     }
+  }
+  showMeaning() {
+    this.p.style.display = this.p.style.display == "block";
   }
 
   showQuiz() {
