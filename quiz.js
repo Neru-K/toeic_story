@@ -61,7 +61,7 @@ class NextElement {
     }
   }
   showMeaning() {
-    this.p.style.display = this.p.style.display == "block";
+    this.p.style.display = "block";
   }
 
   showQuiz() {
