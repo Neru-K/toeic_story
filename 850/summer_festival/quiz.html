@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Summer Festival</title>
+    <link rel="stylesheet" href="../../quiz.css">
+</head>
+
+<body>
+    <h2></h2>
+    <p style="display:none;"></p>
+    <button id="reveal">答えを見る</button>
+    <div class="result">
+        <span class="x">×</span>
+        <span class="circle">○</span>
+    </div>
+    <button id="next">次へ</button>
+    <script src="../../quiz.js">
+        const url = "./words.json";
+        quiz(url);
+    </script>
+</body>
+
+</html>
